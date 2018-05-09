@@ -1,0 +1,37 @@
+.headercontainer {
+ display: flex;
+ font-family: Verdana;
+ align-items: center;
+ font-size: 14px;
+ font-weight: bold;
+ width: 100%
+ height: auto;
+ border-bottom: 1px solid black;
+ padding-bottom: 10px;
+ padding-left: 20px;
+
+
+}
+
+.mytlogo span {
+  color: MediumAquamarine;
+  position: relative;
+  bottom: 25px;
+  padding: 10px;
+}
+
+.mytlogo {
+  flex-grow: 1;
+}
+
+.navitems span {
+ padding: 10px;
+}
+.navitems {
+  margin-right: 30px;
+  color: black;
+}
+
+a {
+  color: black;
+}
