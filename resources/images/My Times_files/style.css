@@ -13,22 +13,18 @@
 
 .mytlogo span {
   color: MediumAquamarine;
-  position:relative;
+  position: relative;
   bottom: 25px;
   padding: 10px;
 }
 
 .mytlogo {
   flex-grow: 1;
-  border: 1px solid black;
-  align-items: center;
-  padding-left: 20px;
 }
 
 .navitems span {
  padding: 10px;
 }
-
 .navitems {
   margin-right: 30px;
   color: black;
@@ -37,33 +33,27 @@
 a {
   color: black;
 }
-.maincontainer {
-  display: flex;
-  padding-top: 30px;
-  padding-right: 10px;
-  margin-left: 200px;
-  margin-right: 200px;
-  align-items:stretch;
-  width: 1260px;
-}
-
-.column.large {
+.columnlarge {
   width: 630px;
-  margin-right: 30px;
+  border: 0.5px solid black;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.column.medium {
+.columnmedium {
   width: 300px;
-  margin-right: 30px;
 }
-
-.column.small {
+.columnsmall {
   width: 240px;
 }
-div {
+.maincontainer {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
+
+}
+.imagehl1 {
+  border: 1px solid black;
+}
+.storyform2 {
+  border: 2px solid black;
 }
